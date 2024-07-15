@@ -13,7 +13,8 @@ public struct MeasureToken {
     {[/]}
     {[ if (group.tokenIds.count() !== 0 && (tokens.first() && tokens.first().description === 0)) ]}
 
-	@@ -17,6 +18,7 @@ public struct AppMeasures {
+    {[/]}
+    {[ for token in tokens ]}
     {[ if (token.description && token.description.count() > 0) ]}
 
     {{ createDocumentationComment(token.description, "    ") }}
