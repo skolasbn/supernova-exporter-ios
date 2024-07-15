@@ -22,3 +22,7 @@ public struct MeasureToken {
     {[/]}
     public static let {[ inject "token_name" context this /]} = {{ token.value.measure }} 
     {[/]}
+  
+    {[/]}
+    {[/]}
+}
